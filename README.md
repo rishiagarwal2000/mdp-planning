@@ -109,6 +109,29 @@ Code is in python. It uses the following libraries:
     ```sh
     $ python3 decoder.py --grid ../data/maze/grid10.txt --value_policy value_and_policy_file
     ```
+* MDP File Format
+
+    Each MDP is provided as a text file in the following format.
+
+
+    numStates S <br>
+    numActions A <br>
+    start st <br>
+    end ed1 ed2 ... edn <br>
+    transition s1 ac s2 r p <br>
+    transition s1 ac s2 r p <br>
+    . . . <br>
+    . . . <br>
+    . . . <br>
+    transition s1 ac s2 r p <br>
+    mdptype mdptype <br>
+    discount gamma <br>
+
+* Maze File Format
+
+    Each maze is provided in a text file as a rectangular grid of 0's, 1's, 2, and 3's. Here 0 denotes an empty tile, 1 denotes an obstruction/wall, 2 denotes the start state and 3 denotes an end state.
+
+Acknowledgments: The file formats and test datasets were provided as a part of an assignment in the course CS747.
 
 <!-- Adding a new algorithm -->
 ## Adding a new algorithm
