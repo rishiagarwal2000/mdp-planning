@@ -34,7 +34,7 @@
 
 Implemented different algorithms to compute an optimal policy for a given MDP.
 
-Using the algorithms we have built a maze solver which finds the shortest path in the given maze.
+Using the algorithms we have built a **maze solver** which finds the shortest path in the given maze.
 
 ### Algorithms
 The algorithms implemented are:
@@ -131,7 +131,7 @@ Code is in python. It uses the following libraries:
 
     Each maze is provided in a text file as a rectangular grid of 0's, 1's, 2, and 3's. Here 0 denotes an empty tile, 1 denotes an obstruction/wall, 2 denotes the start state and 3 denotes an end state.
 
-Acknowledgments: The file formats and test datasets were provided as a part of an assignment in the course CS747.
+**Acknowledgments**: The file formats and test datasets were provided as a part of an assignment in the course CS747.
 
 <!-- Adding a new algorithm -->
 ## Adding a new algorithm
