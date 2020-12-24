@@ -57,6 +57,10 @@ Code is in python. It uses the following libraries:
 
   ```sh
   $ pip3 install numpy
+  ```
+* PuLP
+
+  ```sh
   $ pip3 install pulp
   ```
 
